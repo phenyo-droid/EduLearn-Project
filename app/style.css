@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#generate-button {
+    padding: 15px 30px;
+    background-color: #888;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#generate-button:hover {
+    background-color: #555;
+}
